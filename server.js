@@ -12,8 +12,8 @@ const sendEmail = async(req,res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-          user: 'theblackhat111@gmail.com', // gmail id
-          pass: 'mdpitdqqvuyzgsxa', // generated application password
+          user: 'yourmail@gmail.com', // gmail id
+          pass: 'apppassword', // generated application password
         },
       });
     let info = await transporter.sendMail({
